@@ -1,56 +1,32 @@
-# Live Class Project-3
 
-Project- Justice-Landing Page
+# Project-03 HTML & CSS Full Stack Javascript Web Development Course
 
-This assignment was given as task in ineuron's FSJSBootCamp Course.
+![image](https://img.shields.io/badge/iNeuron-Full--Stack%20JavaScript%20Web%20Development%20Course-blue)
+![image](https://img.shields.io/badge/Hitesh%20Choudhry-LOC-brightgreen)
+![image](https://img.shields.io/badge/HTML-CSS-orange)
+![image](https://img.shields.io/badge/Project-03-blue)
 
-Technologies/ Tools Used:
+![image](https://img.shields.io/badge/BHASKAR-SAHU-blue)
 
-- HTML
-- CSS
-- GitHub
+[<img src= "https://img.shields.io/badge/projcet live link-10b?style=for-the-badge&logo=&logoColor=white" />](https://fsjs-ineuron-project-03-html-css.netlify.app/)
 
-![badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;&nbsp;&nbsp;
-![badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## About
 
+This project is created using HTML and CSS. I have used CSS Positioning to build this project, and this project is not fully responsive. In future I will try to make it responive.
 
-Click on the below given link to get the preview of the page
+## ⚙️ What did I learn by making this project?
 
-<a href="https://fsjs-project3-pujari.vercel.app/">
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-</a>
+-   learn CSS postioning in detail.
+-   learn to use CSS variables.
+-   learn CSS hover effect.
+-   learn using psudo element :: after and ::before.
 
-Learnings from this projects:-
-* How to use different positions (static, relative, absolute) in css.
-* How to Use FontAwesome Icon in webpage.
-* Different CSS properties.
+## ⌛ Time taken to finish this project?
 
-&nbsp;
-![Project-Image](./Screenshots/Project-3-ss1.png "Title is optional")
+This project took me around 2 hour to finish.
 
-![Project-Image](./Screenshots/Project-3-ss2.png "Title is optional")
+## 📷 Screenshots
 
-## Time Taken to complete this project was 2 days.
+![image](./screenshot/screenshot.png)
 
-
-
-
-
-
-
-
-# Project-01 Digital Marketing WebPage
-
-
-
-###### About<br>
-This project is created by using HTML and CSS. I have used CSS Positioning and flex-box to build this project,<br>
-and this project is not fully responsive. In future I will try to make it responive.
-
-⚙️ What did I learn by making this project?<br>
-- Learn CSS postioning in detail.<br>
-- Learn to use CSS variables.<br>
-- Learn CSS hover effect.
-
-
-📷 Screenshots
+[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://fsjs-ineuron-project-03-html-css.netlify.app/)
