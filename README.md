@@ -19,4 +19,4 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ![image]("https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Build%20Tomorrow/screenshot.PNG")
 
-[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://fsjs-ineuron-project-03-html-css.netlify.app/)
+[<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://fsjs-ineuron-project-03-html-css.netlify.app/).
