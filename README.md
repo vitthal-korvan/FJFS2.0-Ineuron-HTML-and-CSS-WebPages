@@ -1,5 +1,5 @@
 
-# Project-01 webpage.
+# Project-01 webpage
 
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
