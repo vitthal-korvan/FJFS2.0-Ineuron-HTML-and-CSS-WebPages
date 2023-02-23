@@ -149,7 +149,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 -   learn using psudo element :: after and ::before.
 
 
-## 📷 Screenshots
+## 📷 Screenshots:
 
 ![image](https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Project%206/screenshot.PNG)
 
