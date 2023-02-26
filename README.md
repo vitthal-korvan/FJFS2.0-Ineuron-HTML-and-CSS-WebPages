@@ -11,7 +11,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 ## ⚙️ What did I learn by making this project?
 
 -   learn CSS postioning in detail.
--   learn to use CSS variables.
+-   learn to use CSS variables
 -   learn CSS hover effect.
 -   learn using psudo element :: after and ::before.
 
