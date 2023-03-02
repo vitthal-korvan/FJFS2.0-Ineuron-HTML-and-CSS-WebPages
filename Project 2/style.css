@@ -22,6 +22,49 @@ nav ul li {
     font-weight: 500;
 }
 
+main{
+    display: none;
+}
+
+
+/* Footer Section of webpage */
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkedin{
+    color: #0A66C2;
+    
+}
+
+.github{
+    color: #1f1f1f;
+}
+
+.briefcase{
+    color: #3b855b;
+}
+
+
+
+
+
+/* for screen size of min width of 1170px */
+
+
+
+@media screen and (min-width: 1170px) {
 
 /* CSS for HERO Section */
 
@@ -55,4 +98,87 @@ main{
 
 .rightmain{
     width: 60%;
+}
+
+
+}
+
+
+/* Media Query for screen size between 800px to 1169px */
+
+@media (min-width:580px) and (max-width: 1169px) {
+
+main{
+    display: block;
+}
+
+.leftmain{
+    text-align: center;
+}
+
+.rightmain{
+    text-align: center;
+}
+
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.leftmain h1{
+    margin: 15px 0px;
+}
+
+.leftmain p{
+    margin: 15px 0px;    
+}
+
+
+}
+
+
+
+/*  For max-width of 600px */
+
+@media screen and (max-width: 580px) {
+
+main{
+    display: block;
+    
+}
+
+.leftmain{
+    text-align: center;
+}
+
+.rightmain{
+    text-align: center;
+}
+
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.leftmain h1{
+    margin: 15px 0px;
+}
+
+.leftmain p{
+    margin: 15px 0px;    
+}
+
+.big-img{
+    width: 328px;
+    height: 282px;
+}
+    
 }
