@@ -4,22 +4,9 @@
     box-sizing: border-box; /* Search */
     background: #F9F5ED;
 }
+
 nav{
-    padding: 20px 10%;
-    height: 15vh;
-}
-
-nav ul {
-    display: flex;
-    align-items: center;
-
-}
-
-nav ul li {
-    list-style: none;
-    margin-right: 5%;
-    /* gap: 50px; */
-    font-weight: 500;
+    display: none;
 }
 
 main{
@@ -66,7 +53,33 @@ a{
 
 @media screen and (min-width: 1170px) {
 
+/* CSS Navbar Section */
+
+nav{
+    display: block;
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    /* gap: 50px; */
+    font-weight: 500;
+}
+
+
+
 /* CSS for HERO Section */
+
+
+
 
 main{
     display: flex;
@@ -104,9 +117,31 @@ main{
 }
 
 
-/* Media Query for screen size between 800px to 1169px */
+/* Media Query for screen size between 580px to 1169px */
 
 @media (min-width:580px) and (max-width: 1169px) {
+
+/* CSS Navbar Section */
+
+nav{
+    display: block;
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    /* gap: 50px; */
+    font-weight: 500;
+}
+
 
 main{
     display: block;
