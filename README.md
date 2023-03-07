@@ -104,7 +104,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 <br>
 
 
-# Project-05
+# Project-05:
 
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
