@@ -138,7 +138,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
 
-## About
+## About:
 
 This project is created using HTML and CSS. I have used CSS Positioning to build this project, and this project is not fully responsive. In future I will try to make it responive.
 
