@@ -4,7 +4,7 @@
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
 
-## About
+## About:
 
 This project is created using HTML and CSS. I have used CSS Positioning to build this project, and this project is not fully responsive. In future I will try to make it responive.
 
@@ -15,7 +15,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 -   learn CSS hover effect.
 -   learn using psudo element :: after and ::before.
 
-## 📷 Screenshots
+## 📷 Screenshots:
 
 ![image](https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Project%201/screenshot.PNG)
 
@@ -29,7 +29,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
 
-## About
+## About:
 
 This project is created using HTML and CSS. I have used CSS Positioning to build this project, and this project is not fully responsive. In future I will try to make it responive.
 
@@ -50,12 +50,13 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 <br>
 
 
-# Project-03
+# Project-03:
 
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
 
-## About
+## About:
+
 
 This project is created using HTML and CSS. I have used CSS Positioning to build this project, and this project is not fully responsive. In future I will try to make it responive.
 
@@ -77,12 +78,12 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 <br>
 
 
-# Project-04
+# Project-04:
 
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
 
-## About
+## About:
 
 This project is created using HTML and CSS. I have used CSS Positioning to build this project, and this project is not fully responsive. In future I will try to make it responive.
 
@@ -104,12 +105,12 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 <br>
 
 
-# Project-05
+# Project-05:
 
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
 
-## About
+## About:
 
 This project is created using HTML and CSS. I have used CSS Positioning to build this project, and this project is not fully responsive. In future I will try to make it responive.
 
@@ -137,7 +138,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 ![image](https://img.shields.io/badge/HTML-CSS-orange)
 
 
-## About
+## About:
 
 This project is created using HTML and CSS. I have used CSS Positioning to build this project, and this project is not fully responsive. In future I will try to make it responive.
 
