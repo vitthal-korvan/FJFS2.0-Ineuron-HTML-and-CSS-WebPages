@@ -40,7 +40,8 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 -   learn CSS hover effect.
 -   learn using psudo element :: after and ::before.
 
-## 📷 Screenshots
+## 📷 Screenshots:
+
 
 ![image](https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Project%202/screenshot.PNG)
 
