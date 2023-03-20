@@ -81,3 +81,34 @@ body{
     font-size: 25px;
 
 }
+
+
+/* Footer Section of webpage */
+
+footer{
+    text-align: center;
+    background-color: #fff;
+    margin-top:7.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkedin{
+    color: #0A66C2;
+    
+}
+
+.github{
+    color: #1f1f1f;
+}
+
+.briefcase{
+    color: #3b855b;
+}
