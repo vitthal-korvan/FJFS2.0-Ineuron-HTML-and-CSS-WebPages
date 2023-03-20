@@ -113,3 +113,34 @@ main section {
     bottom: 0;
     height: 90%;
 }
+
+/* Footer Section of webpage */
+
+footer{
+    position: absolute;
+    bottom: 1rem;
+    left:40rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkedin{
+    color: #0A66C2;
+    
+}
+
+.github{
+    color: #1f1f1f;
+}
+
+.briefcase{
+    color: #3b855b;
+}

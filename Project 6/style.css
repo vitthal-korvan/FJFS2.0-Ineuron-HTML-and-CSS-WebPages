@@ -248,3 +248,35 @@ li:first-of-type::after {
     left: -28rem;
     top: -5rem;
 }
+
+/* Footer Section of webpage */
+
+footer{
+    position: absolute;
+    bottom: 1rem;
+    left:60rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    display: inline-block;
+    font-size:2rem ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkedin{
+    color: #0A66C2;
+    
+}
+
+.github{
+    color: #1f1f1f;
+}
+
+.briefcase{
+    color: #3b855b;
+}

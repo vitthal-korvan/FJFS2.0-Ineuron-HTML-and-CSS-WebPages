@@ -194,3 +194,33 @@ nav {
     top: 2rem;
     left: 2rem;
 }
+
+/* Footer Section of webpage */
+
+footer{
+    text-align: center;
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkedin{
+    color: #0A66C2;
+    
+}
+
+.github{
+    color: #1f1f1f;
+}
+
+.briefcase{
+    color: #3b855b;
+}
