@@ -1,106 +1,100 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Search */
-    background: #F9F5ED;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Search */
+  background: #f9f5ed;
 }
 
-nav{
-    display: none;
+nav {
+  display: none;
 }
 
-main{
-    display: none;
+main {
+  display: none;
 }
-
 
 /* Footer Section of webpage */
 
-footer{
-    text-align: center;
-    margin-top: 20px;
+footer {
+  text-align: center;
+  margin-top: 20px;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.name{
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
+.name {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
 }
 
-.linkedin{
-    color: #0A66C2;
-    
+.linkedin {
+  color: #0a66c2;
 }
 
-.github{
-    color: #1f1f1f;
+.github {
+  color: #1f1f1f;
 }
 
-.briefcase{
-    color: #3b855b;
+.briefcase {
+  color: #3b855b;
 }
 
 /* CSS Navbar Section */
 
-nav{
-    display: block;
-    padding: 20px 10%;
-    height: 15vh;
+nav {
+  display: block;
+  padding: 20px 10%;
+  height: 15vh;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
-    list-style: none;
-    margin-right: 5%;
-    /* gap: 50px; */
-    font-weight: 500;
+  list-style: none;
+  margin-right: 5%;
+  /* gap: 50px; */
+  font-weight: 500;
 }
 
-
+nav ul li a {
+  text-decoration: none;
+}
 
 /* CSS for HERO Section */
 
-
-
-
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10%;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
 }
 
-.leftmain{
-    width: 40%;
+.leftmain {
+  width: 40%;
 }
 
-.leftmain h1{
-    font-size: 67px;
+.leftmain h1 {
+  font-size: 67px;
 }
 
-.leftmain p{
-    margin: 5% 0;
+.leftmain p {
+  margin: 5% 0;
 }
 
-.leftmain button{
-    padding: 15px 20px;
-    border: none;
-    background-color: #3b855b;
-    border-radius: 10px;
-    color: white;
-    font-weight: 500;
+.leftmain button {
+  padding: 15px 20px;
+  border: none;
+  background-color: #3b855b;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
 }
 
-.rightmain{
-    width: 60%;
+.rightmain {
+  width: 60%;
 }
-
-
