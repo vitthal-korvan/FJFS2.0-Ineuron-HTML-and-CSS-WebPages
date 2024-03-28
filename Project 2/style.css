@@ -1,22 +1,17 @@
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Search */
+  box-sizing: border-box;
+}
+
+body {
   background: #f9f5ed;
+  font-family: Arial, sans-serif; /* Use a fallback font */
 }
 
+/* Navbar Section */
 nav {
-  display: none;
-}
-
-main {
-  display: none;
-}
-
-/* CSS Navbar Section */
-
-nav {
-  display: block;
   padding: 20px 10%;
   height: 15vh;
 }
@@ -37,8 +32,7 @@ nav ul li a {
   color: black;
 }
 
-/* CSS for HERO Section */
-
+/* HERO Section */
 main {
   display: flex;
   align-items: center;
@@ -51,28 +45,31 @@ main {
 }
 
 .leftmain h1 {
-  font-size: 67px;
+  font-size: 4rem; /* Adjusted font size */
 }
 
 .leftmain p {
   margin: 5% 0;
+  font-size: 1.4rem; /* Adjusted font size */
+  line-height: 1.6;
+  opacity: 0.8;
 }
 
 .leftmain button {
   padding: 15px 20px;
   border: none;
-  background-color: #3b855b;
   border-radius: 10px;
+  background-color: #3b855b;
   color: white;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .rightmain {
   width: 60%;
 }
 
-/* Footer Section of webpage */
-
+/* Footer Section */
 footer {
   text-align: center;
   margin-top: 20px;
@@ -91,9 +88,12 @@ footer {
   color: #1f1f1f;
 }
 
-/* !---- Mobile Screen ----! */
-
+/* Mobile Screen Styles */
 @media (max-width: 480px) {
+  nav {
+    padding: 20px 2rem;
+    height: 15vh;
+  }
   nav ul li a {
     font-size: 12px;
   }
@@ -107,8 +107,8 @@ footer {
     width: 100%;
   }
   .leftmain h1 {
-    font-size: 4rem;
-    line-height: 0.9;
+    font-size: 2.5rem; /* Adjusted font size */
+    line-height: 1;
   }
   .leftmain p {
     font-size: 1rem;
