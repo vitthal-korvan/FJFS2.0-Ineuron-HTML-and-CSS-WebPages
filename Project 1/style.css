@@ -1,114 +1,144 @@
-/* for All */
-*{
+/* Reset */
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
-/* background */
-body{
-    background-image: url("./assets/bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/* Menu Bar */
-.navbar{
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Background */
+  body {
+    background: url("./assets/bg.png") no-repeat center/cover;
+  }
+  
+  /* Menu Bar */
+  .navbar {
     display: flex;
     background-color: #000;
-    padding-top: 2%;
-    padding-left: 5%;
-    
-}
-.logo{
+    padding: 2% 5% 0;
+  }
+  .logo {
     width: 120px;
-}
-
-.list-item{
-    
+  }
+  
+  .list-item {
     color: #fff;
     list-style: none;
     display: inline-block;
     padding: 10px 20px;
-}
-
-.line{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1%;
+  }
+  
+  .line {
+    margin: 0 5% 1%;
     border-left: 2px solid #fff;
     height: 50px;
-}
-
-.button-small{
+  }
+  
+  .menu {
+    display: none;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .button-small {
     margin-left: 400px;
-    background-color: #BA0CC5;
+    background-color: #ba0cc5;
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px 30px;
-}
-
-/* Hero Section */
-.hero{
+  }
+  
+  /* Hero Section */
+  .hero {
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-   
-}
-
-.hero-heading{
+    justify-content: center;
+  }
+  
+  .hero-heading {
     padding-top: 9%;
     color: #fff;
     font-size: 80px;
     text-align: center;
-} 
-
-.hero-description{
+  }
+  
+  .hero-description {
     font-size: 25px;
     color: #fff;
-}
-
-.button-large{
+  }
+  
+  .button-large {
     top: 5%;
-    background-color: #BA0CC5;
+    background-color: #ba0cc5;
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px 30px;
-    margin-top: 5%;
+    margin: 5% 0 3%;
     border: none;
     font-size: 25px;
-
-}
-
-
-/* Footer Section of webpage */
-
-footer{
+  }
+  
+  /* Footer Section */
+  footer {
     text-align: center;
     background-color: #fff;
-    margin-top:7.7rem;
-}
-
-a{
+    margin-top: 7.7rem;
+  }
+  
+  a {
     text-decoration: none;
-}
-
-.name{
+  }
+  
+  .name {
     display: inline-block;
-    font-family: 'Poppins', sans-serif;
-}
-
-.linkedin{
-    color: #0A66C2;
-    
-}
-
-.github{
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .linkedin {
+    color: #0a66c2;
+  }
+  
+  .github {
     color: #1f1f1f;
-}
-
-.briefcase{
-    color: #3b855b;
-}
+  }
+  
+  /* Media Query */
+  @media screen and (max-width: 480px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 1rem 5% 0.5rem;
+    }
+    .list-item, .line {
+      display: none;
+    }
+    .menu {
+      display: block;
+      margin-left: 5rem;
+    }
+    .button-small {
+      display: none;
+    }
+    .hero-heading {
+      font-size: 50px;
+      margin-top: 5rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .hero-description {
+      font-size: 25px;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .button-large {
+      font-size: 25px;
+      margin-top: 3rem;
+    }
+  }
+  
