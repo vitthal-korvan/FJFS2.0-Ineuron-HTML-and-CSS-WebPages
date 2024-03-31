@@ -17,7 +17,11 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
+### Mobile:
 ![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%201/output/mobile%20screenshot.png)
+
+### Desktop:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%201/output/screenshot.PNG)
 
 [<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://build-tomorrow-webpage.netlify.app/)
 
@@ -42,8 +46,11 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
+### Mobile:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%202/output/mobile.png)
 
-![image](https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Project%202/screenshot.PNG)
+### Desktop:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%202/output/screenshot.PNG)
 
 [<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://calm-webpages.netlify.app/).
 
