@@ -1,282 +1,280 @@
-:root {
-    --cl-white: hsl(0, 0%, 88%);
-    --cl-black: hsl(0, 0%, 0%);
-    --cl-grey-light: hsl(0, 0%, 98%);
-    --cl-grey: #7f7f7f;
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-    --ff-primary: 'Poppins', sans-serif;
-    --ff-secondry: 'Orbitron', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
 }
 
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-
-body {
-    font-family: var(--ff-primary);
-    line-height: 1.5;
-    background-color: var(--cl-grey-light);
-}
-
-img,
-svg {
-    max-width: 100%;
-    display: block;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-button {
-    border: none;
-    outline: none;
-    background-color: transparent;
-}
-
-.container {
-    margin: 2rem 5rem;
-}
-
+/* navigations */
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
-
-.navbar-container > div:nth-of-type(1) img {
-    height: 4rem;
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
 }
-
+.logo img {
+  width: 72%;
+}
 .list {
-    display: flex;
-    align-items: center;
-    margin-left: 5rem;
+  display: flex;
+  list-style: none;
 }
-
 .list li {
-    margin-right: 5rem;
-    font-size: 1.5rem;
-    font-family: var(--ff-secondry);
-    position: relative;
-    cursor: pointer;
+  margin: 0 1.9rem;
+  font-size: 15px;
+}
+.list li:hover {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
-.list li:hover,
-li:active,
-li:focus,
-li:visited {
-    font-weight: bolder;
+.l1 {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
-
-.list li:hover::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 25%;
-    width: 50%;
-    height: 0.3rem;
-    border-radius: 0.2rem;
-    background-color: var(--cl-black);
+/* !----Menu----! */
+.menu {
+  display: none;
+  font-size: 35px;
+  margin-right: 1rem;
 }
-
-.list li:first-of-type {
-    font-weight: bolder;
-}
-
-li:first-of-type::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 25%;
-    width: 50%;
-    height: 0.3rem;
-    border-radius: 0.2rem;
-    background-color: var(--cl-black);
-}
-
+/* Group Buttons Sections */
 .button-group {
-    display: flex;
-    align-items: center;
-    margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  margin-right: 5rem;
 }
-
-.button-group .search-icon {
-    width: 2rem;
-    margin-right: 1.5rem;
-    cursor: pointer;
+.search-icon {
+  margin: 3px 12px;
 }
-
-.button-group .nav-button {
-    padding: 0.5rem 2.2rem;
-    border-radius: 8px;
-    color: var(--cl-grey);
-    border: 2px solid var(--cl-black);
-    cursor: pointer;
+.btn button {
+  background-color: #ffffff;
+  padding: 6px 22px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(157, 152, 152);
+  font-weight: 500;
 }
-
+/* Main Content */
 .hero-container {
-    width: 100%;
-    height: 100%;
-    margin-top: 12rem;
-    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9rem;
 }
-
+/* Left Section  */
 .square {
-    position: absolute;
-    top: 17rem;
-    left: 10rem;
+  position: relative;
+  margin-top: 18rem;
+  margin-left: 9rem;
 }
-
 .square img {
-    height: 26rem;
+  height: 38vh;
 }
-
-.hero-container div:first-of-type {
-    position: absolute;
-    top: 0;
-    left: 0;
+/* !----Boy Image----! */
+.boy {
+  position: absolute;
+  top: 25%;
+  left: 45px;
+  z-index: 1;
 }
-
-.hero-container > div:first-of-type img {
-    height: 38rem;
+.boy img {
+  height: 55vh;
 }
-
+/* Glob Alignment */
 .globe {
-    position: absolute;
-    left: 52%;
-    top: -5rem;
+  position: absolute;
+  top: 19%;
+  left: 52%;
 }
-
 .globe img {
-    height: 6rem;
+  width: 4vw;
+  height: 9vh;
 }
 
+/* !----Star alignment----! */
 .star {
-    position: absolute;
-    left: 88%;
-    top: 2rem;
+  position: absolute;
+  bottom: 6rem;
+  left: 42%;
 }
-
+.star-2 {
+  position: absolute;
+  top: 30%;
+  right: 9.5%;
+}
+/* !----Right Side description----! */
 .hero-container-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: absolute;
-    top: 13rem;
-    left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 17%;
+}
+/* !----Right Heading----! */
+.hero-heading {
+  font-size: 40px;
+}
+.hero-description {
+  margin: 0 23%;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 1.7;
+  margin-top: 1.5rem;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+/* !----Right Button Section-----! */
+.btn-2 {
+  margin-top: 3rem;
+}
+.btn-2 button {
+  border-radius: 9px;
+}
+.btn-2 > .button-email {
+  letter-spacing: 2px;
+  padding: 4px 14px;
+  background-color: #ffffff;
+}
+.btn-2 > .button-join {
+  color: white;
+  background-color: black;
+  padding: 4px 12px;
+}
+.button-email:hover {
+  background-color: black;
+  color: #ffffff;
+}
+.button-join:hover {
+  background-color: #ffffff;
+  color: black;
+}
+/* !----Contact Us----! */
+.contact-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+/* !----Social Media Section----! */
+.icons {
+  margin-left: 15px;
+}
+.icons img {
+  margin: 0 9px;
 }
 
-.hero-container-right .hero-heading {
-    font-size: 4rem;
-    font-family: var(--ff-secondry);
+/*!------ Footer ------! */
+footer {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-container-right .hero-description {
-    width: 100%;
-    text-align: center;
-    letter-spacing: 0.2rem;
-    line-height: 1.7;
-    position: absolute;
-    margin-top: 8rem;
+.fa-github {
+  color: #fff;
+}
+.fa-linkedin {
+  color: #fff;
 }
 
-.hero-container-right .button-email {
-    position: absolute;
-    margin-left: 12rem;
-    top: 18rem;
-    padding: 0.5rem 1rem;
-    width: 16rem;
-    border-radius: 10px;
-    font-family: var(--ff-secondry);
-    border: 2px solid var(--cl-black);
-    letter-spacing: 0.2rem;
-    outline: none;
-}
-
-.hero-container-right .button-join {
-    position: absolute;
-    margin-top: 18rem;
-    margin-left: 29rem;
-    width: 10rem;
-    padding: 0.5rem;
-    font-family: var(--ff-secondry);
-    color: var(--cl-white);
-    background-color: var(--cl-black);
-    border-radius: 10px;
-    outline: none;
-}
-
-.hero-container-right .contact-heading {
-    position: absolute;
-    top: 24rem;
-    margin-left: 24rem;
-    letter-spacing: 0.2rem;
-}
-
-.hero-container-right .icons {
-    display: flex;
-    margin-top: 27rem;
-    margin-left: 16rem;
-    position: relative;
-    cursor: pointer;
-}
-
-.hero-container-right .icons span:not(:first-of-type) {
-    margin-left: 2rem;
-}
-
-.hero-container-right .icons::before {
-    content: url(./assets/start.png);
+@media (max-width: 480px) {
+  /* !---Navigation---! */
+  .navbar-container {
+    padding-top: 0.5rem;
+  }
+  /* !----Logo----! */
+  .logo {
+    margin-left: 1.5rem;
+  }
+  li {
+    display: none;
+  }
+  /* !---Menu Button---! */
+  .menu {
     display: block;
+  }
+  .button-group {
+    display: none;
+  }
+  .btn button {
+    display: none;
+  }
+  /* !----Main Section----! */
+  .hero-container {
+    flex-wrap: wrap;
+  }
 
-    position: absolute;
-    left: -28rem;
-    top: -5rem;
-}
-
-/* Footer Section of webpage */
-
-footer{
-    position: absolute;
-    bottom: 1rem;
-    left:60rem;
+  /* !----Boy Image----! */
+  .boy {
+    margin-top: -3rem;
+    margin-right: 2rem;
+  }
+  .boy img {
+    width: 90%;
+    height: 45vh;
+  }
+  /* !----square Box----! */
+  .square {
+    margin-right: 3rem;
+    margin-top: 52%;
+  }
+  .square img {
+    width: 60vw;
+    height: 35vh;
+  }
+  /* !---Star & Globe---! */
+  .star,
+  .star-2 {
+    display: none;
+  }
+  .globe {
+    display: none;
+  }
+  /* !----Right Container----! */
+  .hero-container-right {
+    margin-top: -20%;
+  }
+  /* !---Right Heading---! */
+  .hero-heading {
     text-align: center;
+  }
+  /* !----Description----! */
+  .hero-description {
+    font-size: 15px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  /* !---Button---! */
+  .btn-2 {
+    margin-top: 1.8rem;
+  }
+  .contact-heading {
+    margin-top: 1.3rem;
+    font-size: 15px;
+  }
+  .icons {
+    margin-top: 1.5rem;
+  }
+  footer{
+    position: relative;
+    bottom: 0;    
 }
-
-a{
-    text-decoration: none;
-}
-
-.name{
-    display: inline-block;
-    font-size:2rem ;
-    font-family: 'Poppins', sans-serif;
-}
-
-.linkedin{
-    color: #0A66C2;
-    
-}
-
-.github{
-    color: #1f1f1f;
-}
-
-.briefcase{
-    color: #3b855b;
 }
