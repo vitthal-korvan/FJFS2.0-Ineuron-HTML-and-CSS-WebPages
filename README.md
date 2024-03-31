@@ -78,7 +78,11 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
-![image](https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Project%203/screenshot.PNG)
+### Mobile:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%203/output/mobile.png)
+
+### Desktop:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%203/output/screenshot.PNG)
 
 [<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://digital-marketing-webpages.netlify.app/).
 
@@ -105,7 +109,11 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
-![image](https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Project%204/screenshot.PNG)
+### Mobile:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%204/output/mobile.png)
+
+### Desktop:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%204/output/screenshot.PNG)
 
 [<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://law-and-justice-webpage.netlify.app/).
 
@@ -132,7 +140,11 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
-![image](https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Project%205/screenshot.PNG)
+### Mobile:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%205/output/mobile.png)
+
+### Desktop:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%205/output/screenshot.PNG)
 
 
 [<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://medifine-webpage-app.netlify.app/).
@@ -160,7 +172,12 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
-![image](https://github.com/vitthal-korvan/FJFS2.0-Ineuron-HTML-and-CSS-WebPages/blob/main/Project%206/screenshot.PNG)
+### Mobile:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%206/output/mobile.png)
+
+### Desktop:
+![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%206/output/desktop.PNG)
+
 
 
 [<img src= "https://img.shields.io/badge/PROJCET LINK-1DA55F?style=for-the-badge&logo=&logoColor=white" />](https://street-style-webpages.netlify.app/).
