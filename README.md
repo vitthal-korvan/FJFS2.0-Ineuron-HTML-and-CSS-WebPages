@@ -17,9 +17,6 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
-### Mobile:
-![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%201/output/mobile%20screenshot.png)
-
 ### Desktop:
 ![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%201/output/screenshot.PNG)
 
@@ -46,8 +43,6 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
-### Mobile:
-![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%202/output/mobile.png)
 
 ### Desktop:
 ![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%202/output/screenshot.PNG)
@@ -78,8 +73,7 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
-### Mobile:
-![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%203/output/mobile.png)
+
 
 ### Desktop:
 ![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%203/output/screenshot.PNG)
@@ -109,9 +103,6 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 ## 📷 Screenshots:
 
-### Mobile:
-![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%204/output/mobile.png)
-
 ### Desktop:
 ![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%204/output/screenshot.PNG)
 
@@ -139,9 +130,6 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 
 ## 📷 Screenshots:
-
-### Mobile:
-![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%205/output/mobile.png)
 
 ### Desktop:
 ![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%205/output/screenshot.PNG)
@@ -171,9 +159,6 @@ This project is created using HTML and CSS. I have used CSS Positioning to build
 
 
 ## 📷 Screenshots:
-
-### Mobile:
-![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%206/output/mobile.png)
 
 ### Desktop:
 ![image](https://github.com/vitthal-korvan/HTML-and-CSS-WebPages/blob/main/Project%206/output/desktop.PNG)
